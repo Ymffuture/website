@@ -38,3 +38,19 @@
 .fa-youtube{
     color: #fc0101;
 }
+.px-2{
+    padding: 20px;
+}
+.px-2:hover{
+    background: #000000;
+    border-radius: 8px;
+    padding: 10px;
+    transition:  background .3s ease-in-out;
+    -webkit-transition:  background .3s ease-in-out;
+    -moz-transition:  background .3s ease-in-out;
+    -ms-transition:  background .3s ease-in-out;
+    -o-transition:  background .3s ease-in-out;
+}
+[url('images/pexels-biology.jpg')]{
+    background: linear-gradient(black,blue);
+}
