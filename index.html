@@ -59,6 +59,7 @@
           </div>
           <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
               <!-- <img class="rounded-lg-3" src="images/WhatsApp " alt="" width="720"> -->
+              <pre>Now we offer Classes!</pre>
           </div>
         </div>
       </div>
@@ -103,7 +104,7 @@
             <h1 class="card-title pricing-card-title ">R0<small class="text-body-secondary fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>10 users included</li>
-              <li>20 free Books Ecxess</li>
+              <li>20 free Books Excess <b>Selected categories</b></li>
               <li>Email support</li>
               <li>Help center access</li>
             </ul>
@@ -115,12 +116,13 @@
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3 pro-free">
             <h4 class="my-0 fw-normal ">Pro</h4>
+            <h6>Recommended</h6>
           </div>
           <div class="card-body price">
             <h1 class="card-title pricing-card-title">R89<small class="text-body-secondary fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>20 users included</li>
-              <li>50 books ecxess</li>
+              <li>50 books Excess <b>Limited categories</b></li>
               <li>Priority email support</li>
               <li>Help center access</li>
             </ul>
@@ -137,7 +139,7 @@
             <h1 class="card-title pricing-card-title">R179<small class="text-body-secondary fw-light">/mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>30 users included</li>
-              <li>150 books ecxess</li>
+              <li>150 books Excess <b>All categories</b></li>
               <li>Phone and email support</li>
               <li>Help center access</li>
             </ul>
@@ -155,7 +157,7 @@
             <h1 class="fw-light">Free books</h1>
             <p class="lead text-body-secondary">Our free books offer resources in physics, math, biology, and other subjects. Learn about mechanics, calculus, genetics, and more. Access diverse topics for all interests. Enhance your knowledge without any financial commitment. Enjoy reading and exploring new ideas.</p>
             <p>
-              <a href="#" class="btn btn-primary main-xy my-2">Choose a paid plan</a>
+              <a href="#02" class="btn btn-primary main-xy my-2">Choose a paid plan</a>
             </p>
           </div>
         </div>
@@ -175,7 +177,7 @@
                     Our free books on math provide a wealth of knowledge in algebra, calculus, and statistics. Enhance your problem-solving skills and understanding of mathematical concepts.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary pdfButton" data-pdf="images\Polyanin_Manzhirov-Handbook_of_Mathematics_for_Engineers_and_Scientists.pdf">View</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">download</button>
                     </div>
                     <small class="text-body-secondary">9 mins ago</small>
@@ -190,7 +192,7 @@
                   <p class="card-text">Explore the sciences with our free books on physics, chemistry, and biology. Discover foundational theories and gain insights into the natural world.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary pdfButton" data-pdf="images/Modern_Physics_for_Engineers_-Jasprit.pdf">View</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">download</button>
                     </div>
                     <small class="text-body-secondary">26 mins ago</small>
@@ -205,7 +207,17 @@
                   <p class="card-text">In addition, we offer free books on diverse subjects like history and literature. Expand your horizons and enjoy a variety of perspectives, all at no cost.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary pdfButton" data-pdf="images/Rethinking our world-2-1.pdf">View</button>
+
+                      <!-- Modal to display the PDF -->
+    <div id="pdfModal" class="modal">
+      <div class="modal-content">
+          <!-- Close button -->
+          <span class="close" id="closeModal">&times;</span>
+          <!-- PDF content -->
+          <iframe id="pdfFrame" width="100%" height="100%" frameborder="0"></iframe>
+      </div>
+  </div>
                       <button type="button" class="btn btn-sm btn-outline-secondary">download</button>
                     </div>
                     <small class="text-body-secondary">3 days ago</small>
@@ -222,18 +234,18 @@
           <div class="col">
             <div class="card card-cover c1 h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: rgb(1, 0, 3);">Mathematics All levels</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:  hsl(220, 27%, 15%);">Mathematics All levels</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="images/WhatsApp Image 2024-03-19 at 08.59.56_63faf93e.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <small style="color: rgb(86, 0, 247);">Math Books</small>
+                    <small style="color:  #333D51;">Math Books</small>
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                    <small style="color: rgb(86, 0, 247);">Over 300+</small>
+                    <small style="color:  #333D51;">Over 300+</small>
                   </li>
                 </ul>
                 <button type="button" class="btn btn-secondary price" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="From R420.99">
@@ -247,18 +259,18 @@
             
             <div class="card card-cover c2 h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"  style="color: rgb(1, 0, 3);">Biology All levels</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"  style="color: hsl(220, 27%, 15%);">Biology All levels</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="images/WhatsApp Image 2024-03-19 at 08.59.56_63faf93e.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <small style="color: rgb(86, 0, 247);">Life sciences</small>
+                    <small style="color:  #333D51;">Life sciences</small>
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                    <small style="color: rgb(86, 0, 247);">Over 125+</small>
+                    <small style="color:  #333D51;">Over 125+</small>
                   </li>
                 </ul>
                 <button type="button" class="btn btn-secondary price" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="From R440.99">
@@ -271,18 +283,18 @@
           <div class="col">
             <div class="card card-cover c3 h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"  style="color: rgb(1, 0, 3);">Physical sciences All levels</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"  style="color: hsl(220, 27%, 15%);">Physical sciences All levels</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img src="images/WhatsApp Image 2024-03-19 at 08.59.56_63faf93e.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <small style="color: rgb(86, 0, 247);">Physics Books</small>
+                    <small style="color: #333D51;">Physics Books</small>
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                    <small style="color: rgb(86, 0, 247);">Over 332+</small>
+                    <small style="color:  #333D51;">Over 332+</small>
                   </li>
                 </ul>
                 <button type="button" class="btn btn-secondary price" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="From R370.99">
@@ -371,25 +383,59 @@
         </div>
     
         <div class="sm-in">
-          <a href="#"></a>
         </div>
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
           <p>&copy; 2024 learniq, Inc. All rights reserved.</p>
           <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-github fa-2xl" style="color: #0e1116;"></i></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-youtube fa-2xl"></i></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://github.com/Ymffuture/"><i class="fa-brands fa-github fa-2xl" style="color: #0e1116;"></i></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.youtube.com/@LearnIQ.info9"><i class="fa-brands fa-youtube fa-2xl"></i></li>
               <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook fa-2xl"></i></li>
                 <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-twitter fa-2xl"></i></li>
           </ul>
         </div>
-        <p>Kgomotso Leonard Nkosi</p>
+        <a href="https://github.com/Ymffuture/website"><p style="color: rgb(14, 179, 255);">&copy; Created by: Kgomotso Leonard Nkosi | @2024 LearnIQ</p></a>
       </footer>
     </div>
   </div>
-
       <script>
         const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
         const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+          // Get references to the modal, close button, and PDF frame
+          const modal = document.getElementById('pdfModal');
+        const closeModal = document.getElementById('closeModal');
+        const pdfFrame = document.getElementById('pdfFrame');
+
+        // Add event listeners to the PDF buttons
+        document.querySelectorAll('.pdfButton').forEach(function (button) {
+            button.addEventListener('click', function () {
+                // Get the PDF file path from the data attribute of the button
+                const pdfFilePath = this.getAttribute('data-pdf');
+
+                // Set the source of the iframe to the PDF file
+                pdfFrame.src = pdfFilePath;
+
+                // Show the modal
+                modal.style.display = 'block';
+            });
+        });
+
+        // Add event listener to the close button
+        closeModal.addEventListener('click', function () {
+            // Hide the modal
+            modal.style.display = 'none';
+
+            // Clear the PDF iframe source
+            pdfFrame.src = '';
+        });
+
+        // Hide the modal when clicking outside of the content
+        window.addEventListener('click', function (event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+                pdfFrame.src = '';
+            }
+        });
       </script>
 </body>
 </html>
