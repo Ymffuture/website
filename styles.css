@@ -5,7 +5,7 @@
    
 }
 .contact{
-    background: rgba(0, 175, 175, 0.222);
+    background: rgba(93, 95, 95, 0.222);
     width: 100%;
     
 }
@@ -19,7 +19,13 @@
     background: #0C6FFB;
 }
 .top{
-    background:#8ad2fc30 ;
+    background:#02172230 ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.683),rgba(128, 128, 128, 0.255)), url(images/pexels-didsss-5407054.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f9f6f6;
+    padding: 150px;
 }
 .ico-dm{
     padding: 10px;
@@ -27,7 +33,8 @@
     color: #0C6FFB;
 }
 .ft{
-    background: rgb(203, 203, 203);
+    background:#333D51;
+    color: #b4b4b4;
 }
 .fa-twitter{
     color: #3c8dff;
@@ -38,19 +45,26 @@
 .fa-youtube{
     color: #fc0101;
 }
-.px-2{
-    padding: 20px;
+.price{
+    /* background:#0066CC; */
+    background: #D3AC2B;
+    color: #333D51;
 }
-.px-2:hover{
-    background: #000000;
-    border-radius: 8px;
-    padding: 10px;
-    transition:  background .3s ease-in-out;
-    -webkit-transition:  background .3s ease-in-out;
-    -moz-transition:  background .3s ease-in-out;
-    -ms-transition:  background .3s ease-in-out;
-    -o-transition:  background .3s ease-in-out;
+.w-100{
+    color: aliceblue;
 }
-[url('images/pexels-biology.jpg')]{
-    background: linear-gradient(black,blue);
+.pro-free{
+    background: #b4b4b4;
+}
+ a:hover{
+    color: #FF9924;
+}
+.our{
+    background: #CBD0D8;
+}
+.lh-1{
+    color: #FF9924;
+}
+.main-xy{
+    background: #333D51;
 }
