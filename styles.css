@@ -26,6 +26,8 @@
     background-size: cover;
     color: #f9f6f6;
     padding: 150px;
+    overflow: hidden;
+    width: 100%;
 }
 @media (max-width:920px) {
     .top{
@@ -72,4 +74,13 @@
 }
 .main-xy{
     background: #333D51;
+}
+.c1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.227),gray),url('images/pexels-biology.jpg'); ;
+}
+.c2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.227),gray), url('images/pexels-rfst.jpg');
+}
+.c3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.227),gray), url('images/pexels\ maths.jpg');
 }
