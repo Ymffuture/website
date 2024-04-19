@@ -27,6 +27,11 @@
     color: #f9f6f6;
     padding: 150px;
 }
+@media (max-width:920px) {
+    .top{
+        padding: 0;
+    }
+}
 .ico-dm{
     padding: 10px;
 
