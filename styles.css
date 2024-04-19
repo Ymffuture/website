@@ -76,11 +76,11 @@
     background: #333D51;
 }
 .c1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.227),gray),url('images/pexels-biology.jpg'); ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.227),gray),url('images/pexels\ maths.jpg');
 }
 .c2{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.227),gray), url('images/pexels-rfst.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.227),gray), url('images/pexels-biology.jpg');
 }
 .c3{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.227),gray), url('images/pexels\ maths.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.227),gray), url('images/pexels-rfst.jpg');
 }
