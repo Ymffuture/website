@@ -1,4 +1,4 @@
  :# website
 
  results:
- https://splendorous-paletas-d3322e.netlify.app/
+ https://learniq.netlify.app/
